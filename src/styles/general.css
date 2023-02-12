@@ -1,0 +1,119 @@
+:root {
+    --color1: #E0B0FF;
+    --color2: #9966CC;
+    --color3: #6A0DAD;
+    --color4: #210B54;
+    --color5: #573975;
+}
+
+body {
+    font-family: Roboto Condensed;
+    height: 100%;
+    min-height: 100%;
+    background:  #0b051b;
+  }
+
+  .info_projects {
+    color: var(--color2);
+    width: 70%;
+    margin: 1.0em;
+    max-width: 600px;
+  }
+
+  .description {
+    color: var(--color2);
+    max-width: 600px;
+  }
+
+  .navigation_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .navigation_link {
+    color: var(--color2);
+  }
+  
+  .is_selected_navigation_link {
+      text-decoration: none;
+      color: var(--color2);
+  }
+  
+  .slash_between {
+    color: var(--color2);
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .tech {
+    color: var(--color1);
+    background-color:  var(--color5);
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    display: inline-block;
+    margin: 2px;
+  }
+
+  .view_code_button {
+    display:inline-block;
+    text-decoration: none;
+    color: #E0B0FF;
+    background-color: #6A0DAD;
+    border-radius: 0.5em;
+    padding: 0.7em;
+  }
+
+  .view_code_button:hover {
+      color:  #210B54;
+      background-color: #E0B0FF;
+  }
+
+
+  .centered_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+  }
+  .centered_column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .max_width_container {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .project_title {
+    color: var(--color1);
+  }
+
+
+
+  .title_smaller {
+    font-size: 2em;
+    color: var(--color1);
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+
+  .dotted_line {
+    border: dotted var(--color5) 4px;
+    border-bottom: none;
+    width: 100%;
+    margin: 10px auto;
+  }
+

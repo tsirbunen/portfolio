@@ -1,0 +1,73 @@
+---
+import '../styles/general.css';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+		<title>Portfolio / Satu Hyvärinen</title>
+
+	</head>
+	<body>
+        <p class="navigation_links">
+            <a class="navigation_link" href="../index.html">HOME</a>
+            <span class="slash_between">/</span>
+            <a class="is_selected_navigation_link" href="./hobbyProjects.html">HOBBY PROJECTS</a>
+        </p>
+
+        <div class="centered_container">
+            <h1 class="title_smaller">HOBBY PROJECTS</h1>
+        </div>
+
+        <div class="centered_column">
+            <p class="info_projects">
+              Coding is so cool that I just can't get enough of it at work. 
+              Therefore I always have at least one hobby project ongoing.
+              Below you can find information on my most recent projects
+              (started from the beginning of 2023 on).
+            </p>
+            <br>
+        </div>
+        <div class="centered_column">
+
+            <div class="max_width_container">
+                <div class="dotted_line"></div>
+                <div>
+                    <h2 class="project_title">RATE A DAY</h2>
+                    <div class="tech">#FLUTTER</div> <div class="tech">#DART</div><div class="tech">#STREAMS</div>
+                    <p class="description">
+                        With the RATE A DAY-app one can first evaluate each working day on two scales: 
+                        (1) was I mostly happy or unhappy during the day and (2) did I learn anything new.
+                        Then one can later view month by month the cumulated evaluations.
+                    </p>
+          
+                        <a class="view_code_button" href="https://github.com/tsirbunen/rate_a_day">
+                            VIEW CODE IN GITHUB
+                        </a>
+                        
+                    </div>
+                    <br/>
+
+                <div class="dotted_line"></div>
+
+                <div>
+
+                    <h2 class="project_title">DOTS</h2>
+                    <div class="tech">#REACT</div><div class="tech">#TYPESCRIPT</div>
+                    <div class="tech">#GRAPHQL</div> <div class="tech">#POSTGRESQL</div>
+                    <div class="tech">#KNEX</div>
+                    <p class="description">
+                        Content coming soon!
+                    </p>
+
+
+                </div>
+                <br/>
+                <div class="dotted_line"></div>
+            </div>
+        </div>
+	</body>
+</html>
