@@ -3,148 +3,98 @@ import "../styles/general.css";
 ---
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <meta name="generator" content={Astro.generator} />
-        <link
-            href="https://fonts.googleapis.com/css?family=Roboto Condensed"
-            rel="stylesheet"
-        />
-        <title>Portfolio / Satu Hyvärinen</title>
-    </head>
-    <body>
-        <p class="navigation_links">
-            <a class="navigation_link" href="../index.html">HOME</a>
-            <span class="slash_between">/</span>
-            <a class="is_selected_navigation_link" href="./hobbyProjects.html"
-                >HOBBY PROJECTS</a
-            >
-        </p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet" />
+    <title>Portfolio / Satu Hyvärinen</title>
+  </head>
+  <body>
+    <p class="navigation_links">
+      <a class="navigation_link" href="../index.html">HOME</a>
+      <span class="slash_between">/</span>
+      <a class="is_selected_navigation_link" href="./hobbyProjects.html">HOBBY PROJECTS</a>
+    </p>
 
-        <div class="centered_container">
-            <h1 class="title_smaller">HOBBY PROJECTS</h1>
+    <div class="centered_container">
+      <h1 class="title_smaller">HOBBY PROJECTS</h1>
+    </div>
+
+    <div class="centered_column">
+      <p class="info_projects">
+        Coding is so cool that I just can't get enough of it at work. Therefore I always have at least one hobby project
+        ongoing. Below you can find information on my most recent projects (started in 2023).
+      </p>
+      <br />
+    </div>
+    <div class="centered_column">
+      <div class="max_width_container">
+        <div class="dotted_line"></div>
+
+        <div>
+          <h2 class="project_title">COOKBOOK</h2>
+          <div class="tech">#REACT</div><div class="tech">#TYPESCRIPT</div>
+          <div class="tech">#GRAPHQL</div>
+          <div class="tech">#POSTGRESQL</div>
+          <div class="tech">#DRIZZLE</div>
+          <div class="tech">#YOGA</div>
+          <div class="tech">#NEXT</div>
+          <p class="description">
+            COOKBOOK is the project that I am currently working on. It is (or will be) an app for managing recipes.
+            There will be the following features
+          </p>
+          <ul>
+            <li class="description">viewing existing recipes (without the need to create an account)</li>
+            <li class="description">possibility to create and store own recipes (for those with an account)</li>
+            <li class="description">extracting recipes from images / files</li>
+            <li class="description">using ChatGPT or similar to help in finding / composing new recipes</li>
+          </ul>
+          <p class="description">The app is available for viewing, but it is only being developed.</p>
+          <a class="view_code_button" href="https://github.com/tsirbunen/cookbook"> CODE</a>
+
+          <a class="view_code_button" href="https://cookbook-dusky.vercel.app"> DEMO</a>
         </div>
+        <br />
+        <div class="dotted_line"></div>
 
-        <div class="centered_column">
-            <p class="info_projects">
-                Coding is so cool that I just can't get enough of it at work.
-                Therefore I always have at least one hobby project ongoing.
-                Below you can find information on my most recent projects
-                (started from the beginning of 2023 on).
-            </p>
-            <br />
+        <div>
+          <h2 class="project_title">RATE A DAY</h2>
+          <div class="tech">#FLUTTER</div>
+          <div class="tech">#DART</div><div class="tech">#STREAMS</div>
+          <p class="description">With the RATE A DAY-app one can first evaluate each working day on two scales:</p>
+          <ol>
+            <li class="description">Was I mostly happy or unhappy during the day?</li>
+            <li class="description">Did I learn anything new?</li>
+          </ol>
+          <p class="description">Then one can later view month by month the cumulated evaluations.</p>
+          <p class="description">This app is meant for mobile users.</p>
+
+          <a class="view_code_button" href="https://github.com/tsirbunen/rate_a_day"> CODE</a>
+
+          <a class="view_code_button" href="https://rate-a-day.netlify.app/"> DEMO</a>
         </div>
-        <div class="centered_column">
-            <div class="max_width_container">
-                <div class="dotted_line"></div>
+        <br />
 
-                <div>
-                    <h2 class="project_title">RATE A DAY</h2>
-                    <div class="tech">#FLUTTER</div>
-                    <div class="tech">#DART</div><div class="tech">
-                        #STREAMS
-                    </div>
-                    <p class="description">
-                        With the RATE A DAY-app one can first evaluate each
-                        working day on two scales:
-                    </p>
-                    <ol>
-                        <li class="description">
-                            was I mostly happy or unhappy during the day?
-                        </li>
-                        <li class="description">did I learn anything new?</li>
-                    </ol>
-                    <p class="description">
-                        Then one can later view month by month the cumulated
-                        evaluations.
-                    </p>
-                    <p class="description">
-                        This app is meant for mobile users.
-                    </p>
+        <div class="dotted_line"></div>
 
-                    <a
-                        class="view_code_button"
-                        href="https://github.com/tsirbunen/rate_a_day"
-                    >
-                        CODE
-                    </a>
+        <div>
+          <h2 class="project_title">MAZE</h2>
+          <div class="tech">#PYTHON</div>
+          <div class="tech">#TURTLEGRAPHICS</div>
+          <p class="description">
+            MAZE is a CLI / Turtle graphics program that creates mazes, allows you to try to solve them, and solves the
+            mazes using different algorithms. Optionally you can choose to view the maze generation and solving
+            processes live in a GUI.
+          </p>
 
-                    <a
-                        class="view_code_button"
-                        href="https://rate-a-day.netlify.app/"
-                    >
-                        DEMO
-                    </a>
-                </div>
-                <br />
-
-                <div class="dotted_line"></div>
-
-                <div>
-                    <h2 class="project_title">DOTS</h2>
-                    <div class="tech">#REACT</div><div class="tech">
-                        #TYPESCRIPT
-                    </div>
-                    <div class="tech">#GRAPHQL</div>
-                    <div class="tech">#POSTGRESQL</div>
-                    <div class="tech">#KNEX</div>
-                    <p class="description">
-                        DOTS is a simple dot voting app (in progress):
-                    </p>
-                    <ul>
-                        <li class="description">create a poll</li>
-                        <li class="description">
-                            give the poll code to all participants
-                        </li>
-                        <li class="description">
-                            participants navigate to the app
-                        </li>
-                        <li class="description">
-                            participants vote in the poll
-                        </li>
-                    </ul>
-                    <p class="description">
-                        This app is meant for mobile users. The app is running,
-                        but it is NOT complete yet.
-                    </p>
-                    <a
-                        class="view_code_button"
-                        href="https://github.com/tsirbunen/dots"
-                    >
-                        CODE
-                    </a>
-
-                    <a
-                        class="view_code_button"
-                        href="https://dots-git-fea-dashboard-tsirbunen.vercel.app/"
-                    >
-                        DEMO
-                    </a>
-                </div>
-                <br />
-                <div class="dotted_line"></div>
-
-                <div>
-                    <h2 class="project_title">EXPLORING RUST</h2>
-                    <div class="tech">#RUST</div>
-                    <p class="description">
-                        Recently I have developed an interest in the programming
-                        language RUST. I am exploring RUST by doing the Advent
-                        of code coding challenges (years 2020 and 2022).
-                    </p>
-
-                    <a
-                        class="view_code_button"
-                        href="https://github.com/tsirbunen/advent_of_code"
-                    >
-                        CODE
-                    </a>
-                </div>
-                <br />
-
-                <div class="dotted_line"></div>
-            </div>
+          <a class="view_code_button" href="https://github.com/tsirbunen/maze"> CODE</a>
+          <a class="view_code_button" href="https://www.youtube.com/embed/y9F6p5_Q7lU"> DEMO</a>
         </div>
-    </body>
+        <br />
+
+        <div class="dotted_line"></div>
+      </div>
+    </div>
+  </body>
 </html>
